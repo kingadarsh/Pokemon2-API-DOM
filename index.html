@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon V-2.0.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1 id="MainHeading">Ye Kon Sa Pokemon Hai!!</h1>
+    </div>
+<!-- ----------------------------------------------------------------------- -->
+    <div id="PokemonContainer"></div>
+<!-- ----------------------------------------------------------------------- -->
+
+    <div class="Form-class" style="display: flex;justify-content: center;">
+        <form id="Form">
+            <label style="color: aliceblue;" for="PokemonName">Enter Pokemon Name</label>
+            <input class="input-class" id="PokemonName" type="text" placeholder="Enter the name of Pokemon" >
+            <button class="button-class" type="submit">Find Pokemon</button>
+        </form>
+    </div>
+    
+<!-- ----------------------------------------------------------------------- -->
+<H2 style="display: flex;justify-content: center;color: aliceblue; margin-top: 50px;">(OR)</H2>
+<!-- ----------------------------------------------------------------------- -->
+
+<div class="Form-class" style="display: flex;justify-content: center;margin-top:50px;">
+    <form id="Form2">
+        <label style="color: aliceblue;" for="NumberOfPokemon">Enter the number of Pokemon</label>
+        <input class="input-class" id="NumberOfPokemon" type="text" placeholder="Enter the number of Pokemon" min="1" max="100">
+        <button class="button-class" type="submit">Find Pokemon</button>
+        <select style="background-color: #808080; height:30px; border-radius: 5px;cursor: pointer;" id="Filter">
+            <option value="ALl">ALL</option>
+            <option value="Fire">Fire</option>
+            <option value="Water">Water</option>
+            <option value="Air">Flying</option>
+            <option value="Ice">Ice</option>
+        </select>
+    </form>
+</div>
+
+
+    
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
