@@ -79,3 +79,9 @@ button:hover {
      cursor: pointer;
      border: none;
 }
+#Filter{
+    background-color: #808080; 
+    height:30px;
+     border-radius: 5px;
+     cursor: pointer;
+}
